@@ -1,7 +1,16 @@
 /*Modificacion de cabezeras h2*/
-h2{
-    color:darkblue;
+h2, h3, h4{
+    color:yellowgreen;
 }
 .mensaje{
     background-color:olivedrab;
+}
+body{
+    background-color:paleturquoise ;
+}
+p.colortexto{
+    color: red;
+}
+body{
+    background: coral url(./mafalda.jpg.jpg) center top ;
 }

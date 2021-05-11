@@ -4,3 +4,17 @@
 .conclusion:hover{
     cursor: pointer;
 }
+
+.button:hover{
+    cursor: pointer;
+}
+.textoresaltado{
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colortexto{
+    color:white;
+}
+.puntero{
+    border: 2em tsolid #26458234 ;
+}
