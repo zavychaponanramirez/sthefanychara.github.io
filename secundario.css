@@ -13,8 +13,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .colortexto{
-    color:white;
+    color: #26458234;
 }
 .puntero{
     border: 2em tsolid #26458234 ;
+}
+h1.cabezera1{
+    position: static;
+}
+h1.cabezera2{
+    position: relative; 
+    top: 10em;
+}
+h1.cabezera3{
+    position: fixed;
+    left: 20em;
+}
+h1.cabezera4{
+    position: absolute;
+    top: 30em;
+    right: 20em;
+}
+h1.abezera5{
+    position: sticky;
+    bottom: 50em;
+    right: 20em;
 }

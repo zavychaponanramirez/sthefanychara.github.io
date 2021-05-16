@@ -1,0 +1,26 @@
+header{
+    height: 10px;
+}
+.contenedor{
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.imagen-logo{
+    height: 300px;
+}
+.marco-izquierdo{
+    flex:30%;
+    text-align: left;
+    padding: 5px;
+}
+.marco-central{
+    flex: 40%;
+    text-align: center;
+}
+.marco-derecho{
+    flex:30%;
+    text-align: right;
+    padding: 5px;
+}

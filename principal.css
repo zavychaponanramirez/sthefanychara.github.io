@@ -6,11 +6,11 @@ h2, h3, h4{
     background-color:olivedrab;
 }
 body{
-    background-color:paleturquoise ;
+    background-color:rgb(2, 182, 182) ;
 }
 p.colortexto{
     color: red;
 }
-body{
+/*body{
     background: coral url(./mafalda.jpg.jpg) center top ;
-}
+#}*/
