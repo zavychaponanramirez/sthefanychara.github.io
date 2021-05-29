@@ -17,6 +17,34 @@
       </script>
     <h1>Página de Bienvenida</h1>
     <P id="mansaje" style="color: red;">Este es un párrafo</P>
+    
+    
+    <head>
+
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dijit/themes/soria/soria.css">
+
+<script>
+    dojoConfig = {
+        parseOnLoad: true
+    }
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dojo/dojo.js"></script>
+<!-- <script src='../_static/js/dojo/dojo.js'></script> -->
+
+<script>
+    require(["dijit/Dialog", "dojo/domReady!"], function(Dialog) {
+        myDialog = new Dialog({
+            title: "Certus Bienvenido",
+            content: "La Información de esta Pantalla",
+            style: "width: 300px; height:300px"
+        });
+    });
+</script>
+</head>
+
+<body class="soria">
+<button onclick="myDialog.show();">CARGAR VENTANA</button>
+
 
 </body> 
 </html>
