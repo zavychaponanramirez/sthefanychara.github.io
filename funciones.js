@@ -14,22 +14,24 @@ console.alert('Aperturado')
 
 function ModificarDato(){
     document.getElementById('resultado').innerHTML='<button>valor</button>',
-    calcularSuma(10, 3),
+    calcularSuma(10, 3)
 };
 function pintado(){
     aprobado = true; //booleano
     document.getElementById('mensaje').innerHTML = 'scrolling';
 };
 function Holas(){
-    document.getElementById('Hola').innerHTML='Bienvenido O\'Conn'\'
+    document.getElementById('Hola').innerHTML='Bienvenido O\'Conn'
     
 }
 
-function compara2(){
+function compara2(numero3, numero4){
     var bandera=false;
     var numero3=document.getElementById('numero3').value;
     var numero4=documen.getElementById('numero4').value;
      
+    console.log(numero3);
+    console.log(numero4);
     if(numero3 < numero4){
         bandera=true;
     }
